@@ -7,14 +7,13 @@ body {
 	padding: 10px;
 	background: #f1f1f1;
 	background-image: url("assets/images/webb.png");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: right top;
-	background-attachment: fixed;
 }
 
 section {
 	width: 960px;
-	height: 760px;
+	height: 560px;
 	border: 1px solid #dddddd;
 	padding: 30px;
 	margin: auto;
@@ -108,4 +107,48 @@ body {
 
 	border-top: 8px solid #4aaaa5;
 	color: #ffffff;
+}
+
+/*Contactsectioncss*/
+
+* {
+	box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text],
+select,
+textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+input[type=submit] {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #3c8581;
+}
+
+/* Style the container/contact section */
+.container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
 }

@@ -7,11 +7,11 @@
     <title>Kells Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="assets/images/Kells profile pic.jpg">
-    <link href="assets/images/webb.png">
 </head>
 
 <body>
-    <header> 
+
+    <header class="fixed">
         <h1>Kell Banks</h1> 
         <div class="topnav" style="float:right">
             <a href="contact.html">Contact</a>
@@ -20,32 +20,35 @@
         </div>
     </header>
 
-    
-
+    <section>
     <div class="row"> 
         <div class="leftcolumn"> 
             <div class="card">
 
-            <h2>About Me</h2>
+            <h2>Contact</h2>
 
-            <img src="assets/images/Kells profile pic.jpg"
-            alt="Profile picture for Kell Banks" style="width:150px;height:150px;">
-       
-                <p> Hi, my name is Kell Banks. I'm currently a student of the University
-                of Utah web development bootcamp. By the end of the program I hope to
-                have obtained the skills to become employed as a fullstack web
-                developer. It has been a challenging learning experience so far, but I
-                look forward to the journey! </p>
-        
-                <p> I'm currently living in Spanish Fork, Utah. I enjoy spending my time
-                with my girlfriend of 6yrs Adri and my 5yr old aussie Piper. Some of my
-                interests include listening to and playing music, photography, cooking,
-                reading, gaming, art, and science. </p>
+            <hr> 
+
+            <div class="column">
+                <form action="/action_page.php">
+                  <label for="fname">Name</label>
+                  <input type="text" id="name" name="name" placeholder="Your name..">
+                  <label for="lname">Email</label>
+                  <input type="text" id="email" name="email" placeholder="Your email..">
+                  <label for="subject">Message</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
+                
             </div>
         </div>
     </div>
-    <div class="footer">
-        <h2>Footer</h2>
+    </section>
+
+    <div class="content">
+        
       </div>
+      <footer class="footer"> <h5>copyright ©</h5> </footer>
 </body>
 </html>
