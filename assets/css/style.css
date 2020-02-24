@@ -4,9 +4,9 @@
 
 body {
 	font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
-	padding: 10px;
+	margin: 0px;
+	background-image: url("assets/images/abstract6.jpg");
 	background: #f1f1f1;
-	background-image: url("assets/images/webb.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -33,13 +33,15 @@ header.fixed {
 }
 
 h1 {
+	float: left;
 	background-color: #4aaaa5;
 	color: #ffffff;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	text-align: center;
 	padding: 30px;
 	margin-top: 10px;
-	margin-left: 155px;
+	margin-left: 385px;
+	margin-bottom: 0px;
 	width: 250px;
 	height: 100px;
 }
@@ -55,16 +57,20 @@ p {
 }
 
 .topnav {
+	width: 100%;
+	padding-top: 10px;
+	position: relative;
 	overflow: hidden;
 	color: #ffffff;
-	margin-right: 140px;
+	margin-right: 190px;
+	margin-bottom: 0px;
 }
 
 .topnav a {
 	float: right;
-	display: block;
 	color: #777777;
 	text-align: center;
+	margin-top: 60px;
 	padding: 14px 16px;
 	text-decoration: none;
 }
@@ -100,13 +106,19 @@ body {
 	bottom: 0;
 	left: 0;
 	width: 100%;
+	height: 120px;
 	padding: 40px;
 	text-align: center;
 	background: #666666;
 	margin-top: 40px;
-
+	padding-top: 50px;
+	padding-bottom: 0px;
 	border-top: 8px solid #4aaaa5;
 	color: #ffffff;
+}
+
+h5 {
+	margin-bottom: 5px;
 }
 
 /*Contactsectioncss*/
@@ -183,10 +195,10 @@ div.desc {
 
 .text-block {
 	position: absolute;
-	bottom: 20px;
+	bottom: -130px;
 	right: 20px;
 	background-color: #4aaaa5;
 	color: white;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 40px;
+	padding-right: 30px;
 }
