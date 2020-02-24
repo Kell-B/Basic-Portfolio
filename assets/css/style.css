@@ -5,10 +5,16 @@
 body {
 	font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
 	margin: 0px;
-	background-image: url("assets/images/abstract6.jpg");
-	background: #f1f1f1;
+	background-image: url("/assets/images/White-Subtle-Texture01.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+}
+
+html,
+body {
+	height: 100%;
 }
 
 section {
@@ -26,13 +32,18 @@ header.fixed {
 	top: 0;
 	left: 0;
 	width: 100%;
-	border-style: none;
-	border-width: 0;
+	border-style: solid;
+	border-color: #dddddd;
+	border-width: 1px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
 	text-align: left;
 	background: #ffffff;
 }
 
 h1 {
+	position: static;
 	float: left;
 	background-color: #4aaaa5;
 	color: #ffffff;
@@ -67,6 +78,7 @@ p {
 }
 
 .topnav a {
+	position: static;
 	float: right;
 	color: #777777;
 	text-align: center;
@@ -86,14 +98,6 @@ img {
 	margin-bottom: 10px;
 }
 
-html,
-body {
-	height: 100%;
-}
-body {
-	display: flex;
-	flex-direction: column;
-}
 .content {
 	flex: 1 0 auto;
 }
@@ -184,8 +188,8 @@ div.gallery:hover {
 div.gallery img {
 	padding-bottom: 0px;
 	margin-bottom: 0px;
-	width: 100%;
-	height: auto;
+	width: 178px;
+	height: 178px;
 }
 
 div.desc {
