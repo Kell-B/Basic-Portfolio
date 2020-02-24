@@ -155,7 +155,9 @@ input[type=submit]:hover {
 .container {
 	border-radius: 5px;
 	background-color: #f2f2f2;
-	padding: 10px;
+	padding: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
 }
 
 /* Clear floats after the columns */
@@ -169,6 +171,7 @@ input[type=submit]:hover {
 
 div.gallery {
 	margin: 5px;
+	margin-bottom: 0px;
 	border: 1px solid #ccc;
 	float: left;
 	width: 180px;
@@ -179,6 +182,8 @@ div.gallery:hover {
 }
 
 div.gallery img {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
 	width: 100%;
 	height: auto;
 }
@@ -195,10 +200,10 @@ div.desc {
 
 .text-block {
 	position: absolute;
+	width: 100%;
 	bottom: -130px;
-	right: 20px;
 	background-color: #4aaaa5;
 	color: white;
-	padding-left: 40px;
-	padding-right: 30px;
+	margin-left: 0px;
+	text-align: center;
 }
