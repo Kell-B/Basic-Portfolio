@@ -5,7 +5,7 @@
 body {
 	font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
 	margin: 0px;
-	background-image: url("/assets/images/White-Subtle-Texture01.jpg");
+	background-image: url("../../assets/images/White-Subtle-Texture01.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	display: flex;
