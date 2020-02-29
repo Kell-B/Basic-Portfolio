@@ -17,6 +17,19 @@ body {
 	height: 100%;
 }
 
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
 section {
 	width: 960px;
 	height: 560px;
@@ -27,7 +40,7 @@ section {
 	background-color: #ffffff;
 }
 
-header.fixed {
+header {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -43,7 +56,6 @@ header.fixed {
 }
 
 h1 {
-	position: static;
 	float: left;
 	background-color: #4aaaa5;
 	color: #ffffff;
@@ -51,9 +63,7 @@ h1 {
 	text-align: center;
 	padding: 30px;
 	margin-top: 10px;
-	margin-left: 385px;
 	margin-bottom: 0px;
-	width: 250px;
 	height: 100px;
 }
 
@@ -68,23 +78,23 @@ p {
 }
 
 .topnav {
-	width: 100%;
 	padding-top: 10px;
-	position: relative;
 	overflow: hidden;
 	color: #ffffff;
-	margin-right: 190px;
 	margin-bottom: 0px;
 }
 
 .topnav a {
-	position: static;
 	float: right;
 	color: #777777;
 	text-align: center;
 	margin-top: 60px;
 	padding: 14px 16px;
 	text-decoration: none;
+}
+
+.topnav h1 {
+	float: left;
 }
 
 .topnav a:hover {
@@ -156,13 +166,6 @@ input[type=submit]:hover {
 }
 
 /* Style the container/contact section */
-.container {
-	border-radius: 5px;
-	background-color: #f2f2f2;
-	padding: 0px;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
-}
 
 /* Clear floats after the columns */
 .row:after {
