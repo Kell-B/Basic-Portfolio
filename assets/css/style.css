@@ -214,3 +214,18 @@ div.desc {
 	margin-left: 0px;
 	text-align: center;
 }
+
+@media screen and (max-width: 700px) {
+	p {
+		font-size: 20px;
+	}
+
+	section {
+		width: 560px;
+		height: 960px;
+	}
+
+	.wrapper {
+		width: 560px;
+	}
+}
